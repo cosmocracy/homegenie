@@ -1,0 +1,2 @@
+#!/bin/bash
+/bin/sh /usr/local/bin/homegenie/startup.sh /usr/local/bin/homegenie
