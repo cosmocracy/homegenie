@@ -18,4 +18,6 @@ RUN chmod +x /etc/service/homegenie/run
 # cleanup
 RUN rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+EXPOSE 80
+
 VOLUME /usr/local/bin/homegenie
